@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ofbiz-component name="ecc"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/ofbiz-component.xsd">
+    <!-- define resource loaders; most common is to use the component resource loader -->
+    <resource-loader name="main" type="component"/>
+
+    <!-- place the config directory on the classpath to access configuration files -->
+   
+    <!-- load single or multiple external libraries -->
+   
+    <!-- entity resources: model(s), eca(s), group, and data definitions -->
+    
+
+    <!-- web applications; will be mounted when using the embedded container -->
+    <webapp name="ecc"
+        title="SiteViewEcc813"
+        server="default-server"
+        location="webapp/ecc"
+        base-permission="OFBTOOLS,ECC"
+        mount-point="/ecc" 
+		app-bar-display="true"/>
+</ofbiz-component>
