@@ -277,7 +277,7 @@
         <property name="cookie" value="3ren"/>
         <property name="mailBox" value="eccadmin"/>    
         <property name="NUMBER_OF_THREADS" value="50"/>
-        <property name="xmpp" value="SITEVIEWWZP"/> 
+        <property name="xmpp" value=""/> 
         <property name="xmpp_debug"  value="true"/>
         <property name="xmpp_port" value="5222"/> 
         <property name="xmpp_username" value="datasender"/>
